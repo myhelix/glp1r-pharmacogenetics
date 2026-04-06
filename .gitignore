@@ -1,0 +1,43 @@
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Rproj.user/
+*.Rproj
+
+# Output directory — generated results excluded; demo input data committed so
+# users can run scripts 03–09 directly without re-running generate_demo_data.R.
+output/*
+!output/glp1r_rare_coding_carriers.tsv
+!output/gipr_rare_coding_carriers.tsv
+!output/rs146868158_carriers.tsv
+!output/semaglutide_cohort.RData
+!output/tirzepatide_cohort.RData
+!output/semaglutide_longitudinal_weights.RData
+!output/tirzepatide_longitudinal_weights.RData
+!output/sema_2record_persons.tsv
+!output/tirz_2record_persons.tsv
+!output/hrn_pcs.tsv
+!output/has_genetic_data.tsv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary / logs
+*.log
+*.tmp
+Rplots.pdf

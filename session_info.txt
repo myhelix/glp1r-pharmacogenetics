@@ -1,0 +1,27 @@
+R Session Information — GLP1R Pharmacogenetics Analysis
+========================================================
+Analysis environment: Helix Research Network HPC cluster
+
+R version 4.2.3 (2023-03-15)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Debian GNU/Linux 10 (buster)
+
+Packages used in this repository:
+  tidyverse    2.0.0   (dplyr 1.1.4, ggplot2 3.5.2, tidyr 1.3.2,
+                        readr 2.1.4, purrr 1.0.2, tibble 3.2.1,
+                        stringr 1.5.0, forcats 1.0.0, lubridate 1.9.3)
+  MatchIt      4.5.5
+  sandwich     3.0-2
+  lmtest       0.9-40  (coeftest / vcovHC)
+  RNOmni       1.0.1.2 (RankNorm; regenie sensitivity analysis)
+  patchwork    1.3.0   (figure assembly)
+  reticulate   1.34.0  (Hail Python interface; scripts 01, 02)
+  DBI          1.1.3   (database interface; scripts 02, 08)
+  bigrquery    *       (All of Us BigQuery; script 08 only)
+
+External tools:
+  Hail        0.2.x   (variant extraction; run via reticulate on HPC Spark cluster)
+  regenie     2.2.4   (burden/SKAT sensitivity; see scripts/07_regenie_sensitivity.sh)
+  Python      3.7.11  (scripts/01_variant_classification.py)
+
+* bigrquery version as available on All of Us Researcher Workbench
